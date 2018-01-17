@@ -1,6 +1,43 @@
-.icon {
-	margin:0px 0px;
-	width:50px;
+
+#aa{
+    height: 500px;
+
+		top: 0;
+		left: 0;
+}
+#bb{
+    height: 500px;
+    position: absolute;
+    animation: spin 1.6s ease-in-out infinite;
+		top: 0;
+		left: 0;
+}
+#cc{
+    height: 500px;
+    position: absolute;
+		top: 0;
+		left: 0;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    65.35%{
+        transform: rotate(380deg);
+    }
+    78.74%{
+        transform: rotate(345deg);
+    }
+    88.976%{
+        transform: rotate(370deg);
+    }
+    96.063%{
+        transform: rotate(355deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 a{
 	text-decoration:none;
@@ -60,7 +97,7 @@ a{
 	background-size:cover;
 	width: 100%;
 	height: 100vh;
-	
+
 }
 .w3-text-logored{
 	color:#ec204e;
@@ -86,6 +123,32 @@ a{
 .w3-text-greyblack1{
 	color:#F5F5F5;
 }
+@media only screen and (max-width: 550px) and (min-width: 300px)
+{
+
+	#aa {
+	    height: 200px;
+	    top: 0;
+	    left: 0;
+		}
+
+		#bb {
+    height: 200px;
+    position: absolute;
+    animation: spin 1.6s ease-in-out infinite;
+    top: 0;
+    left: 0;
+}
+#cc {
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#b1{
+
+	display: none;
+}
 
 
-
+}
