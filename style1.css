@@ -1,0 +1,36 @@
+
+
+#aa{
+    height: 500px;
+    position: relative;
+}
+#bb{
+    height: 500px;
+    position: relative;
+    animation: spin 1.6s ease-in-out infinite;
+}
+#cc{
+    height: 500px;
+    position: absolute;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    65.35%{
+        transform: rotate(380deg);
+    }
+    78.74%{
+        transform: rotate(345deg);
+    }
+    88.976%{
+        transform: rotate(370deg);
+    }
+    96.063%{
+        transform: rotate(355deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
